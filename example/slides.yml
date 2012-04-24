@@ -1,0 +1,11 @@
+--- 
+- :name: slide1
+  :data:
+    :x: 1000
+    :y: 1000
+
+- :name: slide2
+  :data:
+    :x: 0
+    :y: 100
+  :slide_partial: named_slide.html.haml
