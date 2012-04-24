@@ -5,7 +5,7 @@
     %title impress.js presentation generator
     %meta{:content => "", :name => "description"}/
 
-    %link{:href => "css/impress-demo.css", :rel => "stylesheet"}/
+    %link{:href => "impress/css/impress-demo.css", :rel => "stylesheet"}/
 
   
   %body.impress-not-supported
@@ -26,6 +26,6 @@
     #impress
       = yield
 
-    %script{:src => "js/impress.js"}
+    %script{:src => "impress/js/impress.js"}
     :javascript
       impress().init();
