@@ -1,11 +1,22 @@
 --- 
-- :name: slide1
+- :name: slideOne
+  :cls: 
+    - slide
   :data:
-    :x: 1000
-    :y: 1000
+    :x: -1000
+    :y: 0
 
-- :name: slide2
+- :name: slideTwo
+  :cls: 
+    - slide
   :data:
     :x: 0
-    :y: 100
+    :y: 0
+
+- :name: slideThree
+  :cls: 
+    - slide
+  :data:
+    :x: 1000
+    :y: 0
   :slide_partial: named_slide.html.haml
